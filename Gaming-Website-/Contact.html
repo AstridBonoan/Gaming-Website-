@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css file/CSS FILE.css">
+
     <title>Document</title>
 </head>
 <body>
     <style>
     body { 
-        text-align: center;
         background-color: black;
         background-size:cover;
         background-position:center;
@@ -21,136 +22,46 @@
         padding: 10px;
         font-size: 18px;
     }
-    p { 
+    .thankyou { 
         font-size: 22px;
+        text-align: center;
+        vertical-align: center;
+        font-family: "poppins";
+      
+      
     }
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-}
-
-body {
-    background-color: #000000;
-    font-family: "Poppins", sans-serif;
-}
-.container {
-  margin: 20px 40px;
-  color: white;
-}
-
-.heading {
-  font-size: 60px;
-  font-size: 30px;
-}
-
-.profiles {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px 80px;
-}
-
-.profile {
-  flex-basis: 260px;
-}
-
-.profile .profile-img {
-  height: 260px;
-  width: 260px;
-  border-radius: 50%;
-  filter: grayscale(100%);
-  cursor: pointer;
-  transition: 400ms;
-}
-
-.profile:hover .profile-img {
-  filter: grayscale(0);
-}
-
-.user-name {
-  margin-top: 30px;
-  font-size: 35px;
-}
-
-.profile h5{
-  font-size: 18px;
-  font-weight: 100;
-  letter-spacing: 3px;
-  color: #ccc;
-}
-
-.profile p {
-  font-size: 16px;
-  margin-top: 20px;
-  text-align: justify;
-}
-.sidebar {
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-  }
-  
-  /* Sidebar links */
-  .sidebar a {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-  }
-  
-  /* Active/current link */
-  .sidebar a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  /* Links on mouse-over */
-  .sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-  }
-  
-  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-  div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-  }
-  
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
-  @media screen and (max-width: 700px) {
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar a {float: left;}
-    div.content {margin-left: 0;}
-  }
-  
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 400px) {
-    .sidebar a {
-      text-align: center;
-      float: none;
-    }
-  }
         </style>
- <p>
-      Thank you very much for the support of our page, we appreciate every person that comes by our page.
-      <br> We put in alot of work building it as a space for gamers and enthusiast alike
-      <br>
-    It gives us great pleasure to build something as important to the community as this is,
-<br>
- so thank you very much for all of the support as we keep growing and expanding, we look forward 
- <br>
-to growing with you all. att: Astrid and Sam.
-</p>  
+<div class="sidebar">
+    <a class="active" href="index.html">Home</a>
+    <a href="Games.html">Games</a>
+    <a href="Streams.html">Live Stream</a> 
+    <a href="Cheat Codes.html">Cheat Codes</a>
+    <a href="news.html">News</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="thankyou">
+    <p> 
+        Thank you very much for the support of our page, we appreciate every person that comes by our page.
+        <br> We put in alot of work building it as a space for gamers and enthusiast alike
+        <br>It gives us great pleasure to build something as important to the community as this is,
+        <br>so thank you very much for all of the support as we keep growing and expanding, we look forward 
+        <br>to growing with you all. WL: Astrid and Sam.
+  </p>  
+  </div>
+ 
 </body>
 </html>
+
