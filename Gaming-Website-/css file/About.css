@@ -10,6 +10,11 @@ body {
     background-color: #000000;
     font-family: "Poppins", sans-serif;
 }
+
+.title {
+  text-align: center;
+  color: white;
+}
 .container {
   margin: 20px 40px;
   color: white;
